@@ -1,0 +1,48 @@
+body{
+	padding: none;
+	margin: none;
+	font-family: trebuchet, sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+h1{
+	text-align: center;
+}
+
+table{
+	margin: 0 auto;
+}
+
+table, tr, td{
+	border: solid 1px black;
+}
+
+td:hover{
+	background-color: yellow;
+}
+
+td{
+	width: 20vw;
+}
+
+td:nth-child(odd){
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+
+td:nth-child(even){
+	text-align: justify;
+}
+
+td:nth-child(even):hover{
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+#tableau_des_commandes{
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+}
